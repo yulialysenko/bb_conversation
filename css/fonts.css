@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url('../fonts/Centrale_Sans_Regular.woff2') format('woff2'), url('../fonts/Centrale_Sans_Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url('../fonts/Centrale_Sans_Medium.woff2') format('woff2'), url('../fonts/Centrale_Sans_Medium.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url('../fonts/Centrale_Sans_Light.woff2') format('woff2'), url('../fonts/Centrale_Sans_Light.woff') format('woff');
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'Centrale Sans';
+    src: url('../fonts/Centrale_Sans_Bold.woff2') format('woff2'), url('../fonts/Centrale_Sans_Bold.woff') format('woff');
+    font-weight: bold;
+}

@@ -1,0 +1,202 @@
+.brightenUp {
+    -webkit-animation-name: brightenUp;
+    animation-name: brightenUp;
+    -webkit-animation-function: easeInExpo;
+    animation-function: easeInExpo;
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}
+
+.normalFadeInUp {
+    -webkit-animation-name: normalFadeInUp;
+    animation-name: normalFadeInUp;
+}
+
+.strongFadeInUp {
+    -webkit-animation-name: strongFadeInUp;
+    animation-name: strongFadeInUp;
+}
+
+@keyframes brightenUp {
+    from {
+        filter: brightness(0%);
+        -webkit-filter: brightness(0%);
+        -moz-filter: brightness(0%);
+        -o-filter: brightness(0%);
+        -ms-filter: brightness(0%);
+    }
+    40% {
+        filter: brightness(0%);
+        -webkit-filter: brightness(0%);
+        -moz-filter: brightness(0%);
+        -o-filter: brightness(0%);
+        -ms-filter: brightness(0%);
+    }
+    to {
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+    }
+}
+
+@-webkit-keyframes brightenUp {
+    from {
+        filter: brightness(0%);
+        -webkit-filter: brightness(0%);
+        -moz-filter: brightness(0%);
+        -o-filter: brightness(0%);
+        -ms-filter: brightness(0%);
+    }
+    to {
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+    }
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes normalFadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.3, 0.2);
+        transform: scale(0.3, 0.2);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes normalFadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.3, 0.2);
+        transform: scale(0.3, 0.2);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes strongFadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.3, 0.2);
+        transform: scale(0.3, 0.2);
+    }
+    50% {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@-webkit-keyframes strongFadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: scale(0.3, 0.2);
+        transform: scale(0.3, 0.2);
+    }
+    50% {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
